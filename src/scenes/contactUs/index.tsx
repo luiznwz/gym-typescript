@@ -9,7 +9,7 @@ type Props = {
 };
 
 function ContactUs({ setSelectedPage }: Props) {
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
+  const inputStyles = `mt-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
 
   const {
     register,
@@ -129,7 +129,7 @@ function ContactUs({ setSelectedPage }: Props) {
           </motion.div>
 
           <motion.div
-            className="relative mt-16 basis-2/5 md:mt-0"
+            className="relative mt-16 basis-2/5 md:mt-5"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
